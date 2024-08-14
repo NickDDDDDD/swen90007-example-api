@@ -22,3 +22,66 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.name
+.idea/misc.xml
+.idea/modules/
+.idea/artifacts/
+.idea/scopes/
+.idea/gradle.xml
+.idea/encodings.xml
+.idea/compiler.xml
+.idea/other.xml
+.idea/runConfigurations/
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/sqldialects.xml
+.idea/uiDesigner.xml
+.idea/assetWizard.xml
+.idea/gradle_daemon.xml
+.idea/gradle_jdk_table.xml
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+.loadpath
+
+# Ignore VS Code files
+.vscode/
+
+# Ignore NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
